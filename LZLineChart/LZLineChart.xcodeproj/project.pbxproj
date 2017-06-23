@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A03FC0ED1EFD267C006F377C /* LZBaseLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A03FC0EC1EFD267C006F377C /* LZBaseLineChart.m */; };
+		A03FC0F01EFD2AC5006F377C /* LZLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A03FC0EF1EFD2AC5006F377C /* LZLineChart.m */; };
 		A05E93B91EFD235600B019CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E93B81EFD235600B019CC /* main.m */; };
 		A05E93BC1EFD235600B019CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E93BB1EFD235600B019CC /* AppDelegate.m */; };
 		A05E93BF1EFD235600B019CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E93BE1EFD235600B019CC /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A03FC0EB1EFD267C006F377C /* LZBaseLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBaseLineChart.h; sourceTree = "<group>"; };
+		A03FC0EC1EFD267C006F377C /* LZBaseLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBaseLineChart.m; sourceTree = "<group>"; };
+		A03FC0EE1EFD2AC5006F377C /* LZLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZLineChart.h; sourceTree = "<group>"; };
+		A03FC0EF1EFD2AC5006F377C /* LZLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZLineChart.m; sourceTree = "<group>"; };
 		A05E93B41EFD235600B019CC /* LZLineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZLineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05E93B81EFD235600B019CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A05E93BA1EFD235600B019CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +89,10 @@
 		A05E93CE1EFD237200B019CC /* LineChart */ = {
 			isa = PBXGroup;
 			children = (
+				A03FC0EB1EFD267C006F377C /* LZBaseLineChart.h */,
+				A03FC0EC1EFD267C006F377C /* LZBaseLineChart.m */,
+				A03FC0EE1EFD2AC5006F377C /* LZLineChart.h */,
+				A03FC0EF1EFD2AC5006F377C /* LZLineChart.m */,
 			);
 			path = LineChart;
 			sourceTree = "<group>";
@@ -161,7 +171,9 @@
 			files = (
 				A05E93BF1EFD235600B019CC /* ViewController.m in Sources */,
 				A05E93BC1EFD235600B019CC /* AppDelegate.m in Sources */,
+				A03FC0F01EFD2AC5006F377C /* LZLineChart.m in Sources */,
 				A05E93B91EFD235600B019CC /* main.m in Sources */,
+				A03FC0ED1EFD267C006F377C /* LZBaseLineChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +334,7 @@
 				A05E93CD1EFD235600B019CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
